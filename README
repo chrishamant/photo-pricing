@@ -1,0 +1,24 @@
+Base Price - bp
+Single Opening Digital Border - border
+Portrait Retouch - retouch
+Portrait Finish Upgrade: Premier Finish - premier
+Portrait Finish Upgrade: Heirloom Finish - heirloom
+Wood Frame - frame
+Portrait Greeting Cards - cards
+
+
+
+
+
+
+{
+    "id" : {{jsonize(cells["Id"].value)}},
+    "title" : {{jsonize(cells["Title"].value)}},
+    "bp" : {{jsonize(cells["Base Price"].value)}},
+    "border" : {{jsonize(cells["Single Opening Digital Border"].value)}},
+    "retouch" : {{jsonize(cells["Portrait Retouch"].value)}},
+    "premier" : {{jsonize(cells["Premier Finish - Portrait Finish Upgrade"].value)}},
+    "heirloom" : {{jsonize(cells["Heirloom Finish - Portrait Finish Upgrade"].value)}},
+    "frame" : {{jsonize(cells["Wood Frame"].value)}},
+    "cards" : {{jsonize(cells["Portrait Greeting Cards"].value)}}
+}

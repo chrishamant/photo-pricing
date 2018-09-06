@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Base Price",
+      "id": "bp"
+    },
+    {
+      "name": "Single Opening Digital Border",
+      "id": "border"
+    },
+    {
+      "name": "Portrait Retouch",
+      "id": "retouch"
+    },
+    {
+      "name": "Portrait Finish Upgrade: Premier Finish",
+      "id": "premier",
+      "conflicts" : ["heirloom"]
+    },
+    {
+      "name": "Portrait Finish Upgrade: Heirloom Finish",
+      "id": "heirloom",
+      "conflicts" : ["premier"]
+    },
+    {
+      "name": "Wood Frame",
+      "id": "frame"
+    },
+    {
+      "name": "Portrait Greeting Cards",
+      "id": "cards"
+    }
+  ]

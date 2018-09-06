@@ -1,0 +1,113 @@
+{
+    "packages" : [
+        {
+            "id" : 10,
+            "name" : "1-Framed 10x20",
+            "price" : 140
+        },
+        {
+            "id" : 20,
+            "name" : "1-20x24 Traditional",
+            "price" : 150
+        },
+        {
+            "id" : 21,
+            "name" : "1-20x24 Multi Design",
+            "price" : 150
+        },
+        {
+            "id" : 30,
+            "name" : "1-16x20 Traditional",
+            "price" : 100
+        },
+        {
+            "id" : 31,
+            "name" : "1-16x20 Multi Design",
+            "price" : 100
+        },
+        {
+            "id" : 40,
+            "name" : "1-10x13 Multi Design",
+            "price" : 80
+        },
+        {
+            "id" : 50,
+            "name" : "1-10x13",
+            "price" : 55
+        },
+        {
+            "id" : 60,
+            "name" : "2-5x7s",
+            "price" : 60
+        },
+        {
+            "id" : 70,
+            "name" : "4-3x5s",
+            "price" : 55
+        },
+        {
+            "id" : 80,
+            "name" : "9-wallets",
+            "price" : 30
+        },
+        {
+            "id" : 90,
+            "name" : "1-8x10 Multi Design",
+            "price" : 55
+        },
+        {
+            "id" : 100,
+            "name" : "1-8x10",
+            "price" : 30
+        }
+    ],
+    "package-discounts" : [
+        {
+            "min" : 0,
+            "max" : 99,
+            "savings" : 0
+        },
+        {
+            "min" : 100,
+            "max" : 174,
+            "savings" : 0.1
+        },
+        {
+            "min" : 175,
+            "max" : 249,
+            "savings" : 0.15
+        },
+        {
+            "min" : 250,
+            "max" : 374,
+            "savings" : 0.2
+        },
+        {
+            "min" : 375,
+            "max" : 499,
+            "savings" : 0.25
+        },
+        {
+            "min" : 500,
+            "max" : 9999999,
+            "savings" : 0.3
+        }
+    ],
+    "enhancements" : [
+        {
+            "name" : "Single Opening Digital Borders",
+            "restrictions" : [9,8,7,1,2,3,4],
+            "price" : 15
+        },
+        {
+            "name" : "Portrait Retouch",
+            "restrictions" : [],
+            "price" : 40
+        },
+        {
+            "name" : "Portrait Finish Upgrade",
+            "restrictions" : [],
+            "price" : 40
+        }
+    ]
+}

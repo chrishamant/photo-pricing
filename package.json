@@ -1,0 +1,19 @@
+{
+  "name": "photo-pricing",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "buefy": "^0.6.6",
+    "node-sass": "^4.9.3",
+    "nuxt": "^1.4.2",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0"
+  }
+}

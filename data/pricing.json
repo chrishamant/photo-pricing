@@ -1,0 +1,145 @@
+[
+{
+    "id" : 10,
+    "title" : "1-Framed 10x20",
+    "bp" : 140,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : -1,
+    "heirloom" : -1,
+    "frame" : -1,
+    "cards" : 40
+},
+{
+    "id" : 20,
+    "title" : "1-20x24 Traditional",
+    "bp" : 150,
+    "border" : 15,
+    "retouch" : 40,
+    "premier" : 60,
+    "heirloom" : 120,
+    "frame" : 100,
+    "cards" : 40
+},
+{
+    "id" : 30,
+    "title" : "1-20x24 Multi Design",
+    "bp" : 150,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : 60,
+    "heirloom" : 120,
+    "frame" : 100,
+    "cards" : 40
+},
+{
+    "id" : 40,
+    "title" : "1-16x20 Traditional",
+    "bp" : 100,
+    "border" : 15,
+    "retouch" : 40,
+    "premier" : 40,
+    "heirloom" : 80,
+    "frame" : 70,
+    "cards" : 40
+},
+{
+    "id" : 50,
+    "title" : "1-16x20 Multi Design",
+    "bp" : 100,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : 40,
+    "heirloom" : 80,
+    "frame" : 70,
+    "cards" : 40
+},
+{
+    "id" : 60,
+    "title" : "1-10x13",
+    "bp" : 55,
+    "border" : 15,
+    "retouch" : 40,
+    "premier" : 20,
+    "heirloom" : 40,
+    "frame" : 35,
+    "cards" : 40
+},
+{
+    "id" : 70,
+    "title" : "1-10x13 Multi Design",
+    "bp" : 80,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : 20,
+    "heirloom" : 40,
+    "frame" : 35,
+    "cards" : 40
+},
+{
+    "id" : 80,
+    "title" : "2-5x7s",
+    "bp" : 60,
+    "border" : 15,
+    "retouch" : 40,
+    "premier" : 20,
+    "heirloom" : 40,
+    "frame" : 25,
+    "cards" : 40
+},
+{
+    "id" : 90,
+    "title" : "4-3x5s",
+    "bp" : 55,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : 20,
+    "heirloom" : -1,
+    "frame" : -1,
+    "cards" : 40
+},
+{
+    "id" : 100,
+    "title" : "9-wallets",
+    "bp" : 30,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : -1,
+    "heirloom" : -1,
+    "frame" : -1,
+    "cards" : 40
+},
+{
+    "id" : 110,
+    "title" : "1-8x10 Multi Design",
+    "bp" : 55,
+    "border" : -1,
+    "retouch" : 40,
+    "premier" : 10,
+    "heirloom" : 20,
+    "frame" : 30,
+    "cards" : 40
+},
+{
+    "id" : 120,
+    "title" : "1-8x10",
+    "bp" : 30,
+    "border" : 15,
+    "retouch" : 40,
+    "premier" : 10,
+    "heirloom" : 20,
+    "frame" : 30,
+    "cards" : 40
+},
+{
+    "id" : 130,
+    "title" : "Portrait Image CD",
+    "bp" : -1,
+    "border" : -1,
+    "retouch" : -1,
+    "premier" : -1,
+    "heirloom" : -1,
+    "frame" : -1,
+    "cards" : -1
+}
+]
