@@ -6,27 +6,33 @@
         span.item.section(:data-name="item.title",:data-id="item.id")
           | {{item.title}}
     .container
-      span {{total}}
+      span
+        | {{total}}
 </template>
 
+<style lang="scss" scoped>
+
+</style>
+
 <script>
-const calc = import("../src/calc")
-var cart = []
+const cart = require("./cart")
+
 export default {
-  asyncData (context) {
-    // called every time before loading the component
+  data (context) {
     return {
-      pricing : require("../data/pricing.json"),
-      sums : function(){
-        calc(cart)
-      },
-      total : 0
+      pricing : cart.pricing,
+      total : cart.state.cart.length
+    }
+  },
+  computed : {
+    total (){
+      return cart.state.cart.length
     }
   },
   methods : {
     addToCart (e){
       if(e.target && e.target.dataset.id){
-        cart.push({
+        cart.addToCart({
           id : e.target.dataset.id,
           qty : 1,
           extras : {
@@ -38,13 +44,10 @@ export default {
             "cards" : 0
           }
         })
+        this.$data.total = cart.state.cart.length
       }
     }
   }
 }
 </script>
 
-<style lang="scss">
-  @import "~bulma";
-  @import "~buefy/src/scss/buefy";
-</style>
